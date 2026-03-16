@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFACD; /* Light yellow background */
+    color: #000000; /* Black text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Yellow links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000000; /* Black on hover */
+}
+
+#productos {
+    margin: 20px 0;
+}
+
+.productos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #FFFFFF; /* White background for products */
+    border: 2px solid #FFD700; /* Yellow border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.producto h3 {
+    margin-top: 0;
+    color: #8B4513; /* Brown for headings */
+}
+
+button {
+    background-color: #FFD700; /* Yellow button */
+    color: #000000; /* Black text */
+    border: 2px solid #000000; /* Black border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FFA500; /* Orange on hover */
+    color: #FFFFFF; /* White text */
+}
+
+section {
+    margin: 20px 0;
+}
+
+.contacto-container {
+    background-color: #FFFFFF;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
